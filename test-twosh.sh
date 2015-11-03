@@ -1,0 +1,1 @@
+aws ec2 run-instances --image-id ami-5189a661 --count 1 --instance-type t2.micro --key-name itmo544-spring-virtualbox --security-group-ids sg-9d36b2f9 --subnet-id subnet-bcd69ed9 --associate-public-ip-address --iam-instance-profile Name=phpdeveloperRole --user-data file://install-webserver.sh
