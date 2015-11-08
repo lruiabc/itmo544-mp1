@@ -16,7 +16,7 @@ php composer.phar require aws/aws-sdk-php
 #echo -e "\nSleeping 5 seconds"
 #for i in {0..5}; do echo -ne '.';sleep 1;done
 
-sudo mv ./../itmo-544-444-mp1/vendor /var/www/html/vendor
+sudo mv ./../itmo544-mp1/vendor /var/www/html/vendor
 
 echo "hello!" >/tmp/hello.txt
 
